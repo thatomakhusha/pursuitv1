@@ -1,4 +1,4 @@
-import { CircleDotIcon } from "lucide-react";
+import { Target } from "lucide-react";
 
 
 const Navbar = () => {
@@ -7,7 +7,7 @@ const Navbar = () => {
             <div className="mx-auto flex max-w-7xl items-center justify-between">
                 <a href="/" className="flex items-center gap-2">
                     <div className="bg-primary p-1.5 text-white rounded-md">
-                        <CircleDotIcon size={22}/>
+                        <Target size={22}/>
                     </div>
                     <span className="text-text-primary font-bold text-[1.2rem]">
                         Pursuit
