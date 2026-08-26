@@ -3,6 +3,7 @@ import Navbar from "@/components/landing/Navbar";
 import Hero from "@/components/landing/Hero";
 import Strip from "@/components/landing/Strip";
 import HowItWorks from "@/components/landing/HowItWorks";
+import WhatYouNeed from "@/components/landing/WhatYouNeed";
 
 export default function Home() {
   return (
@@ -15,6 +16,9 @@ export default function Home() {
             <Strip/>
           </Container>
           <HowItWorks/>
+          <Container>
+            <WhatYouNeed/>
+          </Container>
       </main>
       
 
