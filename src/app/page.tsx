@@ -6,6 +6,8 @@ import HowItWorks from "@/components/landing/HowItWorks";
 import WhatYouNeed from "@/components/landing/WhatYouNeed";
 import WhyPursuit from "@/components/landing/WhyPursuit";
 import CTA from "@/components/landing/CTA";
+import Footer from "@/components/landing/Footer";
+
 export default function Home() {
   return (
     <>
@@ -24,6 +26,7 @@ export default function Home() {
           <Container>
             <CTA/>
           </Container>
+          <Footer/>
       </main>
       
 
