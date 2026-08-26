@@ -18,7 +18,7 @@ const Strip = () => {
                 </p>
                 <div className="flex flex-wrap justify-center gap-3">
                     {types.map(({ icon: Icon, label }) => (
-                    <div key={label} className="flex items-center gap-2 px-4 py-2 rounded-full border border-gray-200 bg-[#F5F7FA] text-sm font-medium text-gray-700">
+                    <div key={label} className="flex items-center gap-2 px-4 py-2 rounded-full border border-gray-200 bg-background text-sm font-medium text-gray-700">
                         <Icon size={14} className="text-[#6FA8DC]" />
                         {label}
                     </div>
