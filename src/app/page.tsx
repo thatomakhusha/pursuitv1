@@ -4,6 +4,7 @@ import Hero from "@/components/landing/Hero";
 import Strip from "@/components/landing/Strip";
 import HowItWorks from "@/components/landing/HowItWorks";
 import WhatYouNeed from "@/components/landing/WhatYouNeed";
+import WhyPursuit from "@/components/landing/WhyPursuit";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
           <Container>
             <WhatYouNeed/>
           </Container>
+          <WhyPursuit/>
       </main>
       
 
